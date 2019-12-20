@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,900|Source+Sans+Pro:300,400,400i,600&display=swap');
+
+/* --------Background colors---------- */
+
+body{
+    font-family: 'Source Sans Pro', sans-serif, 'Playfair Display', serif;
+}
+
+/* --------Navbar---------- */
+.navbar{
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.download-cv-button{
+    color: #fff;
+    border-color: #ef0d33;
+}
+
+.download-cv-button:hover{
+    background-color: #ef0d33;
+    border-color: #ef0d33;
+}
+
+/* --------Header---------- */
+
+.intro{
+    color: #fff;
+    margin-top: 10vh;
+}
+
+.intro-header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+.intro-container{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: linear-gradient( to bottom,
+                     rgba(0, 0, 0, 0.3), 
+                    rgba(0, 0, 0, 0.5)), url("../images/ProfileImage.jpg") no-repeat top center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

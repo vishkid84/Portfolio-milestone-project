@@ -1,20 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,900|Source+Sans+Pro:300,400,400i,600&display=swap');
 
-/* --------Background colors---------- */
+/* -----General----- */
 
 body{
     font-family: 'Source Sans Pro', sans-serif, 'Playfair Display', serif;
 }
 
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto #ef0d33 !important;
+}
+
+.section-header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    margin: 25px 0; 
+    /* text-transform: uppercase; */
+}
+
 /* --------Navbar---------- */
 .navbar{
-    background: rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    background: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ef0d33;
+    font-weight: bold;
 }
 
 .download-cv-button{
     color: #fff;
     border-color: #ef0d33;
+    border-radius: 0;
 }
 
 .download-cv-button:hover{
@@ -26,7 +44,6 @@ body{
 
 .intro{
     color: #fff;
-    margin-top: 10vh;
 }
 
 .intro-header{
@@ -36,7 +53,7 @@ body{
 
 .intro-container{
     height: 100vh;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     background: linear-gradient( to bottom,
                      rgba(0, 0, 0, 0.3), 
@@ -49,3 +66,127 @@ body{
    align-items: center;
    justify-content: center;
 }
+
+.lead{
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* --------About Me---------- */
+
+#AboutMe{
+    background-color: #e7e7eb;
+    position: relative;
+    /* text-align: center; */
+    padding: 25px 0;
+}
+
+
+/* --------About Me---------- */
+
+#Skills{
+    background-color: #27acaa;
+    color: #fff; 
+    position: relative;
+    /* text-align: center; */
+    padding: 25px 0;
+}
+
+.progress{
+    position: relative;
+    height: 25px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar{
+    background-color: #e7e7eb;
+    position: relative;
+    /* margin-left: 130px; */
+}
+
+/* @media(max-width: 991px){
+    .progress-bar{
+        margin-left: 15%;
+    }
+}
+
+@media(max-width: 767px){
+    .progress-bar{
+        margin-left: 30%;
+    }
+} */
+
+.progress-label{
+    position: absolute;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 3px 30px 4px 10px;
+    color: #136d6c;
+    z-index: 1;
+}
+
+.progress-section{
+    margin: 40px 20px 40px 0;
+}
+
+/* --------Education/Experience---------- */
+
+#EducationExperience{
+    background-color: #e7e7eb;
+    position: relative;
+    /* text-align: center; */
+    padding: 25px 0;
+}
+
+/* -------Timeline--------- */
+
+.history-heading{
+    /* color: #fafafa; */
+    margin-bottom: 50px;
+}
+
+.timeline-item{
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    /* color: #fafafa; */
+    border-left: 1px solid #ef0d33;
+}
+
+.timeline-item p{
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before{
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #ef0d33;
+}
+
+.history-items{
+    margin-bottom: 30px;
+}
+
+/* -------Timeline--------- */
+

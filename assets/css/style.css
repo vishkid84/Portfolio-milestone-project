@@ -2,7 +2,12 @@
 
 /* -----General----- */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
+    position: relative;
     font-family: 'Source Sans Pro', sans-serif, 'Playfair Display', serif;
 }
 
@@ -15,6 +20,7 @@ button:focus {
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     margin: 25px 0; 
+    padding-top: 25px;
     /* text-transform: uppercase; */
 }
 
@@ -79,18 +85,18 @@ button:focus {
     background-color: #e7e7eb;
     position: relative;
     /* text-align: center; */
-    padding: 25px 0;
+    padding: 25px 0 50px 0;
 }
 
 
-/* --------About Me---------- */
+/* --------Skills---------- */
 
 #Skills{
     background-color: #27acaa;
     color: #fff; 
     position: relative;
     /* text-align: center; */
-    padding: 25px 0;
+    padding: 25px 0 50px 0;
 }
 
 .progress{
@@ -137,7 +143,7 @@ button:focus {
     background-color: #e7e7eb;
     position: relative;
     /* text-align: center; */
-    padding: 25px 0;
+    padding: 25px 0 50px 0;
 }
 
 /* -------Timeline--------- */
@@ -188,5 +194,123 @@ button:focus {
     margin-bottom: 30px;
 }
 
-/* -------Timeline--------- */
+/* -------Portfolio--------- */
 
+#Portfolio{
+    background-color: #b8bdc4;
+    position: relative;
+    padding: 25px 0 100px 0;
+}
+
+.portfolio-container {
+    position: relative;
+}
+
+.portfolio-container .h3{
+    font-weight: 800;
+}
+
+.portfolio-card-whiskeydrop,
+.portfolio-card,
+.portfolio-card-looplab{
+    position: relative;
+    background-color: #3b4a5f;
+    /* height: 300px; */
+    /* width: 100%; */
+    /* min-height: 100%; */
+    margin-top: 25px;
+}
+
+.whiskeydrop-img,
+.purrfect-img,
+.looplab-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
+.whiskeydrop-overlay,
+.portfolio-overlay,
+.looplab-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    opacity: .75;
+}
+
+
+.portfolio-card:hover .portfolio-overlay {
+  height: 100%;
+}
+
+.portfolio-card-looplab:hover .looplab-overlay {
+  height: 100%;
+}
+
+.portfolio-card-whiskeydrop:hover .whiskeydrop-overlay {
+  height: 100%;
+}
+
+
+.portfolio-card-content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* -------Contact--------- */
+
+#Contact{
+    background-color: #333b50;
+    color: #fff; 
+    position: relative;
+    /* text-align: center; */
+    padding: 25px 0 150px 0;
+}
+
+
+.social-media-links i{
+    height: 35px;
+    background: #ef0d33;
+    width: 35px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.social-media-links i:hover{
+    background: #bd0c2a;
+    /* color: #ef0d33; */
+}
+
+/* --------Form--------- */
+
+.form-control{
+    border-radius: 0 !important;
+    background-clip: border-box !important;
+}
+
+.submit-button{
+    border-radius: 0;
+    background-color: #ef0d33;
+    border-color: #ef0d33;
+    width: 100%;
+}

@@ -14,8 +14,8 @@
 	<title>Vishal's portfolio</title>
 </head>
 
-<body>
-	<nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+<body data-spy="scroll" data-target="#navbar">
+	<nav id="navbar" class="navbar fixed-top navbar-expand-sm navbar-dark">
 		<div class="container">
 			<a class="navbar-brand logo" href="index.html">Vishal Raju</a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
@@ -33,13 +33,15 @@
 						<a class="nav-link" href="#EducationExperience">Education/Experience</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
+						<a class="nav-link" href="#Portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#Contact">Contact</a>
 					</li>
 				</ul>
-				<button class="btn btn-outline-danger my-2 mx-2 my-sm-0 download-cv-button">Download CV</button>
+                <a href="assets/Resume.pdf" target="_blank">
+				    <button class="btn btn-outline-danger my-2 mx-md-2 my-sm-0 download-cv-button">Download CV</button>
+                </a>
 			</div>
 		</div>
 	</nav>
@@ -51,7 +53,7 @@
 					<div class="col-md-5 col-sm-12">
 						<section class="intro">
 							<h1 class="intro-header">Hi, I'm Vishal
-								<span><small><br> (the one with the beard in this photograph)</small></span></h1>
+								<span><small><br> (the one with the beard)</small></span></h1>
 							<h2 class="lead">Digital Designer | Web Developer</h2>
 						</section>
 					</div>
@@ -161,13 +163,123 @@
 	</section>
 
 	<section id="Portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="section-header">Portfolio</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container portfolio-container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="portfolio-card-whiskeydrop">
+                        <a href="https://vishkid84.github.io/Whiskey-Drop/" target="_blank">
+                            <img src="assets/images/whiskeydrop.png" alt="Whiskey Drop screenshot" class="whiskeydrop-img">
+                            <div class="whiskeydrop-overlay">
+                                <div class="portfolio-card-content">
+                                    <h3>Whiskey Drop</h3>
+                                    <p>A static website when learning CSS fullstack development through Code Institute</p>
+                                </div>
+                            </div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="portfolio-card">
+						<a href="https://www.google.com" target="_blank">
+							<img src="assets/images/purrfect.png" alt="" class="purrfect-img">
+							<div class="portfolio-overlay">
+								<div class="portfolio-card-content">
+									<h3>Purrfect</h3>
+									<p>A website when learning CSS through Udemy course by Colt Steele</p>
+								</div>
+							</div>
+                        </a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="portfolio-card-looplab">
+                        <a href="https://www.google.com" target="_blank">
+                            <img src="assets/images/looplab.png" alt="" class="looplab-img">
+                            <div class="looplab-overlay">
+                                <div class="portfolio-card-content">
+                                    <h3>Looplab</h3>
+                                    <p>A static website with Bootstrap in Udemy course by Brad Traversy</p>
+                                </div>
+                            </div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<section id="Contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="section-header">Contact</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<p class="contact-info">You can reach me at +353 89 454 0375 or creativedesigns1010@gmail.com.
+						Alternatively, you can fill the form here with the details and I will get back to you.
+						You can find my social media links below.
+					</p>
+					<ul class="list-inline social-media-links">
+						<li class="list-inline-item">
+							<a href="#" target="_blank">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" target="_blank">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+								<span class="sr-only">LinkedIn</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" target="_blank">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+                <div class="col-md-6 col-sm-12">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="Name" placeholder="Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="Phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="Textarea" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <div class="submit-button">
+                            <button type="submit" class="btn btn-danger submit-button">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+			</div>
+		</div>
 	</section>
 
 
-
+	<script>
+		$('body').scrollspy({ target: '#navbar', offset: 50})
+	</script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>

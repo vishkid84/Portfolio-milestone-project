@@ -9,7 +9,7 @@ You can find the deployed site [here](https://vishkid84.github.io/Portfolio-mile
 
 ### User stories
 
-As someone from the recruitment team, I would like to see Vishal's overall experience and skills.
+As someone from the recruitment team, I would like to see Vishal's overall experience and skills.<br>
 As someone who would be interviewing for my team, I would like to see a glimpse of his personality, education/experience and work that makes him stand out from the average person.
 
 ### Strategy

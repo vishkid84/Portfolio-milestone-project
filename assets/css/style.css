@@ -308,6 +308,11 @@ button:focus {
     background-clip: border-box !important;
 }
 
+.form-control:focus{
+    border-color: #ef0d33;
+    box-shadow: 0 0 0 0.2rem rgba(239, 13, 51, .1);
+}
+
 .submit-button{
     border-radius: 0;
     background-color: #ef0d33;

@@ -3,13 +3,14 @@
 This is a personal portfolio site intended to recruiters. This site includes all the relevant details about me and my skills. 
 Based on my research, I have arranged the details in an order which is easier for anyone to easily navigate through. 
 
+You can find the deployed site [here](https://vishkid84.github.io/Portfolio-milestone-project/)
+
 ## UX
------
 
 ### User stories
 
 As someone from the recruitment team, I would like to see Vishal's overall experience and skills.
-As someone who would be interviewing for my team, I would like to see a glimpse of his personality, experience and work that makes him stand out from the average person.
+As someone who would be interviewing for my team, I would like to see a glimpse of his personality, education/experience and work that makes him stand out from the average person.
 
 ### Strategy
 
@@ -29,7 +30,15 @@ Based on this, I created the wireframe.
 
 ### Skeleton
 
-The About me section highlights my interest in both design and development. 
+You can see the wireframes below:
+
+[Desktop view](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/Desktop%20view.png)<br>
+[Mobile view](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/Mobile%20view.png)<br>
+[Wireframe with colors](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/wireframe with colors scheme.png)<br>
+
+### Surface
+
+I used a greyscale image and a color scheme that complements well. 
 
 
 ## Features
@@ -48,60 +57,61 @@ There are 6 sections in the navbar:
 - Feature 1 - allows users to navigate to the particular section by clicking on the sections from navbar. They can scroll if needed as well.
 - Feature 2 - scrollspy from bootstrap included so that each section is highlighted in the navbar when they are navigated to.
 - Feature 3 - fixed navbar which makes it easier to navigate to 
-- Feature 4 - responsive layout: Education and Experience will be shown as one under the other in mobile view. The same with the portfolio tiles and Contact section.
-
-In future, I plan to add functionality to the form in Contact section. Currently only the layout is added.
+- Feature 4 - responsive layout
 
 ### Features Left to Implement
+- In future, I plan to add functionality to the form in Contact section. Currently only the layout is added.
 - For future, I plan to include some quotes from previous clients below portfolio before moving into the Contact section.
 
 ## Technologies Used
 
-HTML, CSS
-Google fonts
-bootstrap (includes the library css, javascrip and jquery)
+HTML <br>
+CSS <br>
+Google fonts <br>
+Bootstrap 4.3.1 <br>
 jquery and js cdn for the bootstrap functions to work
 
 ## Testing
 
-The About me section highlights my interest in both design and development. 
+The About me section highlights my interest in both design and development also giving a glimpse of my personaity. 
+The users mentioned they would still prefer a downloadable CV which I have added as part of navbar which downloads as a separate window, this has been tested successfully. 
+The users also ranked education and experience in more or less the same level and would be easier to compare. So they have been added as two columns side-by-side for desktops and tablets. They are vertically placed in mobile view. 
+Portfolio section also added, when hovered over gives the project name and brief description. When clicked on, it navigates to the project in a separate window.
+All of the above help achieve the user stories.
 
-During my UX, the users mentioned they would still prefer a downloadable CV which I have added as part of navbar. 
-This downloads as a separate window, this has been tested successfully. 
+All the links in the site have been tested manually to be working successfully. 
 
-The users also ranked education and experience in more or less the same level and would be easier to compare. 
-So they have been added as two columns side-by-side for desktops and tablets. They are vertically placed in mobile view. 
+In the Contact section, the 'required' attribute has been added to email, phone and email address. Users would not be able to submit without filling in these sections.
+Furthermore, if email address is not valid, an error message pops up about it.
 
-All the links in the site have been tested to be working successfully. 
-
-The website is created to be responsive. As metioned above for the Education/Experience section, there are other parts also which are responsive. 
-The navbar changes to menu icon in mobile view. All the links have been tested to work positively. 
+The website is created to be responsive. As mentioned above for the Education/Experience section, there are other parts also which are responsive. 
+The navbar changes to menu icon in mobile view. 
 Portfolio section tiles appears as 3 columns in desktop and tablet view but as a single column in mobile. 
 Contact section appears as two different columns in desktop and tablet - one with contact details and the other column with form. They appear vertically in mobile. 
-All of the above has been tested successfully. 
+All of the above has been tested manually and found to be working. 
 
-I have added the css scroll feature for the html page. This does not work on Internet Explorer. 
+The website has been tested across different browsers (Chrome, Firefox, Microsoft Edge, IE10). I have added the smooth scroll feature in css. 
+This does not work on Internet Explorer and Edge. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The site was written in gitpod and pushed into the GitHub repository. This is hosted using GitHub, deployed directly from the master branch. 
+The deployed site will update automatically upon new commits to the master branch.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+To run this locally open the command prompt or terminal. Then paste this into it: 'git clone https://github.com/vishkid84/Portfolio-milestone-project.git'
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+All the text content were written by me
 
 ### Media
-- The photos used in this site were obtained from ...
+
+The images in the portfolio section were those which were used in those projects. The name of the original project and the course if any mentioned there. 
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+The timeline was modified based on a previous code institute section. The github link [here](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history)<br>
+The hover effect in portfolio modified based on tutuorial from w3schools [here](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp)
+

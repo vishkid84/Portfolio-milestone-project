@@ -34,11 +34,12 @@ You can see the wireframes below:
 
 [Desktop view](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/Desktop%20view.png)<br>
 [Mobile view](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/Mobile%20view.png)<br>
-[Wireframe with colors](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/wireframe with colors scheme.png)<br>
+[Wireframe with colors](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/wireframe%20with%20colors%20scheme.png)<br>
 
 ### Surface
 
-I used a greyscale image and a color scheme that complements well. 
+Based on all the above, I created the website in easily navigatable manner. 
+I used a greyscale image for the landing page and a color scheme that complements well. 
 
 
 ## Features
@@ -77,9 +78,9 @@ The About me section highlights my interest in both design and development also 
 The users mentioned they would still prefer a downloadable CV which I have added as part of navbar which downloads as a separate window, this has been tested successfully. 
 The users also ranked education and experience in more or less the same level and would be easier to compare. So they have been added as two columns side-by-side for desktops and tablets. They are vertically placed in mobile view. 
 Portfolio section also added, when hovered over gives the project name and brief description. When clicked on, it navigates to the project in a separate window.
-All of the above help achieve the user stories.
+All of the above helped achieve the user stories.
 
-All the links in the site have been tested manually to be working successfully. 
+All the links in the site have been tested manually and found to be working successfully. 
 
 In the Contact section, the 'required' attribute has been added to email, phone and email address. Users would not be able to submit without filling in these sections.
 Furthermore, if email address is not valid, an error message pops up about it.
@@ -98,7 +99,7 @@ This does not work on Internet Explorer and Edge.
 The site was written in gitpod and pushed into the GitHub repository. This is hosted using GitHub, deployed directly from the master branch. 
 The deployed site will update automatically upon new commits to the master branch.
 
-To run this locally open the command prompt or terminal. Then paste this into it: 'git clone https://github.com/vishkid84/Portfolio-milestone-project.git'
+To run this locally, open the command prompt or terminal. Then paste this into it: 'git clone https://github.com/vishkid84/Portfolio-milestone-project.git'
 
 ## Credits
 
@@ -108,10 +109,10 @@ All the text content were written by me
 
 ### Media
 
-The images in the portfolio section were those which were used in those projects. The name of the original project and the course if any mentioned there. 
+The images in the portfolio section are those which were used in those projects. The name of the original project and the course if any mentioned there. 
 
 ### Acknowledgements
 
 The timeline was modified based on a previous code institute section. The github link [here](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history)<br>
-The hover effect in portfolio modified based on tutuorial from w3schools [here](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp)
+The hover effect in portfolio modified based on tutorial from w3schools [here](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp)
 

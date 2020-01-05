@@ -211,7 +211,7 @@ button:focus {
 }
 
 .portfolio-card-whiskeydrop,
-.portfolio-card,
+.portfolio-card-purrfect,
 .portfolio-card-looplab{
     position: relative;
     background-color: #3b4a5f;
@@ -231,7 +231,7 @@ button:focus {
 }
 
 .whiskeydrop-overlay,
-.portfolio-overlay,
+.purrfect-overlay,
 .looplab-overlay{
     position: absolute;
     bottom: 0;
@@ -246,7 +246,7 @@ button:focus {
 }
 
 
-.portfolio-card:hover .portfolio-overlay {
+.portfolio-card-purrfect:hover .purrfect-overlay {
   height: 100%;
 }
 

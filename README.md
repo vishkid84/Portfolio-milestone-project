@@ -19,12 +19,12 @@ The target audience for this website are recruiters/companies. So idea is to cre
 ### Scope
 
 Once the audience is identified, I researched various websites and job portals to understand the requirements they are looking for. 
-Based on the research and user stories, I identified 8 areas - Strong summary, Career progression, Technical skills, Education and certification, Portfolio, Contact details, References/quotes from clients and downloadable CV. 
+Based on the research and user stories, I identified 8 areas - Strong summary, Career progression, Technical skills, Education and certification, Portfolio, Contact details, References/quotes from clients and Downloadable CV. 
 
 ### Structure
 
-The next part was to identify the best way to layout these sections. From my research, I came to the conclusion it would be best to place them based on relevance.
-To understand this bit, I talked to a couple of people who have been part of the recruitment team in my company to understand the priorities. 
+The next part was to identify the best way to layout these sections. From my research, I came to the conclusion that it would be best to place them based on relevance.
+To understand this bit, I talked to a couple of people who have been part of the recruitment team in my company. 
 As part of the interview with them, I also created cards for each section and asked them to order them based on what they would be looking for first. 
 Based on all this, I created the wireframe.
 
@@ -51,7 +51,7 @@ There are 6 sections in the navbar:
 2. Skills: Progress bars with my technical skills
 3. Education/Experience: This section has two different timelines for my education and experience each
 4. Portfolio: This section contains tiles with images of the work done and will take to the original work when clicked on them
-5. Contact: This section has my contact details. Also includes a form to fill in the details and message as an alternative method to reach me. The form is only and dummy and does not work currently.  
+5. Contact: This section has my contact details. Also includes a form to fill in the details and message as an alternative method to reach me.  
 6. Download CV: This is not a section but a button to download a PDF version of my CV
 
 ### Existing Features
@@ -63,7 +63,7 @@ There are 6 sections in the navbar:
 ### Features Left to Implement
 - For future, I plan to add functionality to the form in Contact section. Currently only the layout is added.
 - For future, I plan to include some quotes from previous clients below portfolio before moving into the Contact section.
-- I also plan to add more projects to the portfolio section
+- I also plan to add more projects to the portfolio section.
 
 ## Technologies Used
 
@@ -77,7 +77,7 @@ jquery and js cdn for the bootstrap functions to work
 
 The About me section highlights my interest in both design and development also giving a glimpse of my personaity. 
 The users mentioned they would still prefer a downloadable CV which I have added as part of navbar which downloads as a separate window, this has been tested successfully. 
-The users also ranked education and experience in more or less the same level and would be easier to compare. So they have been added as two columns side-by-side for desktops and tablets. They are vertically placed in mobile view. 
+The users also ranked education and experience in more or less the same level which also makes them easier to compare. So they have been added as two columns side-by-side for desktops and tablets. They are vertically placed in mobile view. 
 Portfolio section also added, when hovered over gives the project name and brief description. When clicked on, it navigates to the project in a separate window.
 All of the above helped achieve the user stories.
 
@@ -109,7 +109,7 @@ To run this locally, open the command prompt or terminal. Then paste this into i
 
 ### Content
 
-All the text content were written by me
+All the text content were written by me.
 
 ### Media
 

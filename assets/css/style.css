@@ -57,7 +57,6 @@ button:focus {
 
 .intro-container{
     height: 100vh;
-    /* position: absolute; */
     top: 0;
     background: linear-gradient( to bottom,
                      rgba(0, 0, 0, 0.3), 
@@ -106,18 +105,6 @@ button:focus {
     background-color: #e7e7eb;
     position: relative;
 }
-
-/* @media(max-width: 991px){
-    .progress-bar{
-        margin-left: 15%;
-    }
-}
-
-@media(max-width: 767px){
-    .progress-bar{
-        margin-left: 30%;
-    }
-} */
 
 .progress-label{
     position: absolute;
@@ -207,9 +194,6 @@ button:focus {
 .portfolio-card-looplab{
     position: relative;
     background-color: #3b4a5f;
-    /* height: 300px; */
-    /* width: 100%; */
-    /* min-height: 100%; */
     margin-top: 25px;
 }
 

@@ -19,7 +19,7 @@ The target audience for this website are recruiters/companies. So idea is to cre
 ### Scope
 
 Once the audience is identified, I researched various websites and job portals to understand the requirements they are looking for. 
-Based on the research and user stories, I identified 6 areas - Strong summary, Career progression, Technical skills, Education and certification, Portfolio, Contact details, References/quotes from clients and downloadable CV. 
+Based on the research and user stories, I identified 8 areas - Strong summary, Career progression, Technical skills, Education and certification, Portfolio, Contact details, References/quotes from clients and downloadable CV. 
 
 ### Structure
 
@@ -115,5 +115,6 @@ The images in the portfolio section are those which were used in those projects.
 ### Acknowledgements
 
 The timeline was modified based on a previous code institute section. The github link [here](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history)<br>
-The hover effect in portfolio modified based on tutorial from w3schools [here](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp)
-The hover effect was not working in ios. Found the solution [here](https://stackoverflow.com/questions/18047353/fix-css-hover-on-iphone-ipad-ipod) 
+The hover effect in portfolio modified based on tutorial from w3schools [here](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp)<br>
+The hover effect was not working in ios. Found the solution [here](https://stackoverflow.com/questions/18047353/fix-css-hover-on-iphone-ipad-ipod)<br>
+The solution to style anchor like a button instead of adding button tag as a descendent of an a tag which is invalid was found [here](https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5)

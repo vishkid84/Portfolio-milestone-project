@@ -12,7 +12,6 @@ body{
 }
 
 button:focus {
-    outline: 1px dotted;
     outline: 5px auto #ef0d33 !important;
 }
 
@@ -21,7 +20,6 @@ button:focus {
     font-weight: 800;
     margin: 25px 0; 
     padding-top: 25px;
-    /* text-transform: uppercase; */
 }
 
 /* --------Navbar---------- */
@@ -84,7 +82,6 @@ button:focus {
 #AboutMe{
     background-color: #e7e7eb;
     position: relative;
-    /* text-align: center; */
     padding: 25px 0 50px 0;
 }
 
@@ -95,7 +92,6 @@ button:focus {
     background-color: #27acaa;
     color: #fff; 
     position: relative;
-    /* text-align: center; */
     padding: 25px 0 50px 0;
 }
 
@@ -109,7 +105,6 @@ button:focus {
 .progress-bar{
     background-color: #e7e7eb;
     position: relative;
-    /* margin-left: 130px; */
 }
 
 /* @media(max-width: 991px){
@@ -142,21 +137,18 @@ button:focus {
 #EducationExperience{
     background-color: #e7e7eb;
     position: relative;
-    /* text-align: center; */
     padding: 25px 0 50px 0;
 }
 
 /* -------Timeline--------- */
 
 .history-heading{
-    /* color: #fafafa; */
     margin-bottom: 50px;
 }
 
 .timeline-item{
     padding: 4em 2em 0em 2em;
     position: relative;
-    /* color: #fafafa; */
     border-left: 1px solid #ef0d33;
 }
 
@@ -266,6 +258,7 @@ button:focus {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  -o-transform:translate(-50%, -50%); 
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -276,7 +269,6 @@ button:focus {
     background-color: #333b50;
     color: #fff; 
     position: relative;
-    /* text-align: center; */
     padding: 25px 0 150px 0;
 }
 
@@ -293,12 +285,13 @@ button:focus {
     color: #fff;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
 }
 
 .social-media-links i:hover{
-    background: #bd0c2a;
-    /* color: #ef0d33; */
+    background: #c82333;
 }
 
 /* --------Form--------- */

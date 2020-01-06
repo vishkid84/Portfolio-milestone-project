@@ -92,7 +92,8 @@ Contact section appears as two different columns in desktop and tablet - one wit
 All of the above has been tested manually and found to be working. 
 
 The website has been tested across different browsers (Chrome, Firefox, Microsoft Edge, IE10). I have added the smooth scroll feature in css. 
-This does not work on Internet Explorer and Edge. 
+This does not work on Internet Explorer, Edge and ios. Tested across multiple devices and found that hover effect does not work without adding additional code
+and 'background-attachment: fixed' does not work on ios.
 
 ## Deployment
 
@@ -115,4 +116,4 @@ The images in the portfolio section are those which were used in those projects.
 
 The timeline was modified based on a previous code institute section. The github link [here](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history)<br>
 The hover effect in portfolio modified based on tutorial from w3schools [here](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp)
-
+The hover effect was not working in ios. Found the solution [here](https://stackoverflow.com/questions/18047353/fix-css-hover-on-iphone-ipad-ipod) 

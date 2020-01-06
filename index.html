@@ -180,7 +180,7 @@
                             <div class="whiskeydrop-overlay">
                                 <div class="portfolio-card-content">
                                     <h3>Whiskey Drop</h3>
-                                    <p>A static website when learning CSS fullstack development through Code Institute</p>
+                                    <p>A static website when learning CSS through Code Institute</p>
                                 </div>
                             </div>
 						</a>
@@ -188,7 +188,7 @@
 				</div>
 				<div class="col-md-4">
 					<div onclick="" class="portfolio-card-purrfect">
-						<a href="https://www.google.com" target="_blank">
+						<a href="https://vishkid84.github.io/Purrfect/" target="_blank">
 							<img src="assets/images/purrfect.png" alt="purrfect screenshot" class="purrfect-img">
 							<div class="purrfect-overlay">
 								<div class="portfolio-card-content">
@@ -201,7 +201,7 @@
 				</div>
 				<div class="col-md-4">
 					<div onclick="" class="portfolio-card-looplab">
-                        <a href="https://www.google.com" target="_blank">
+                        <a href="https://vishkid84.github.io/looplab/" target="_blank">
                             <img src="assets/images/looplab.png" alt="" class="looplab-img">
                             <div class="looplab-overlay">
                                 <div class="portfolio-card-content">
@@ -281,6 +281,15 @@
 	<script>
 		$('body').scrollspy({ target: '#navbar', offset: 50})
 	</script>
+    <script>
+        (function() {
+            $("*").on( 'touchstart', function() {
+                $(this).trigger('hover') ;
+            } ).on('touchend', function() {
+                $(this).trigger('hover') ;
+            } ) ;
+        })() ;
+    </script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>

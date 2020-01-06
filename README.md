@@ -24,9 +24,9 @@ Based on the research and user stories, I identified 8 areas - Strong summary, C
 ### Structure
 
 The next part was to identify the best way to layout these sections. From my research, I came to the conclusion it would be best to place them based on relevance.
-To understand this bit, I talked to a couple of people who have been part of the recruitment team in my company. 
+To understand this bit, I talked to a couple of people who have been part of the recruitment team in my company to understand the priorities. 
 As part of the interview with them, I also created cards for each section and asked them to order them based on what they would be looking for first. 
-Based on this, I created the wireframe.
+Based on all this, I created the wireframe.
 
 ### Skeleton
 

@@ -71,7 +71,6 @@ HTML <br>
 CSS <br>
 Google fonts <br>
 Bootstrap 4.3.1 <br>
-jquery and js cdn for the bootstrap functions to work
 
 ## Testing
 

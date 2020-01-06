@@ -92,8 +92,8 @@ Contact section appears as two different columns in desktop and tablet - one wit
 All of the above has been tested manually and found to be working. 
 
 The website has been tested across different browsers (Chrome, Firefox, Microsoft Edge, IE10). I have added the smooth scroll feature in css. 
-This does not work on Internet Explorer, Edge and ios. Tested across multiple devices and found that hover effect does not work without adding additional code
-and 'background-attachment: fixed' does not work on ios.
+This does not work on Internet Explorer, Edge and iOS. Tested across multiple devices and found that hover effect in portfolio section does not work in iOS without adding additional code
+and also that 'background-attachment: fixed' does not work in iOS.
 
 ## Deployment
 

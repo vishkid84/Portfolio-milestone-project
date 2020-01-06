@@ -34,7 +34,7 @@ You can see the wireframes below:
 
 [Desktop view](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/Desktop%20view.png)<br>
 [Mobile view](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/Mobile%20view.png)<br>
-[Wireframe with colors](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/wireframe%20with%20colors%20scheme.png)<br>
+[Wireframe with color scheme](https://github.com/vishkid84/Portfolio-milestone-project/blob/master/assets/wireframes/wireframe%20with%20colors%20scheme.png)<br>
 
 ### Surface
 
@@ -55,8 +55,8 @@ There are 6 sections in the navbar:
 6. Download CV: This is not a section but a button to download a PDF version of my CV
 
 ### Existing Features
-- Feature 1 - allows users to navigate to the particular section by clicking on the sections from navbar. They can scroll if needed as well.
-- Feature 2 - scrollspy from bootstrap included so that each section is highlighted in the navbar when they are navigated to.
+- Feature 1 - allows users to navigate to the particular section by clicking on the sections from navbar. They can scroll if needed as well
+- Feature 2 - scrollspy from bootstrap included so that each section is highlighted in the navbar when they are navigated to
 - Feature 3 - fixed navbar which makes it easier to navigate to 
 - Feature 4 - responsive layout
 

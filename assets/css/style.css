@@ -63,7 +63,7 @@ button:focus {
     top: 0;
     background: linear-gradient( to bottom,
                      rgba(0, 0, 0, 0.3), 
-                    rgba(0, 0, 0, 0.5)), url("../images/ProfileImage.jpg") no-repeat top center fixed; 
+                    rgba(0, 0, 0, 0.5)), url("../images/ProfileImage.jpg") no-repeat top center; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;

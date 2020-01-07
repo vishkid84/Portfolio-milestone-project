@@ -100,6 +100,7 @@ Validated html and css with W3C validator to make sure there are no errors.
 ## Deployment
 
 The site was written in gitpod and pushed into the GitHub repository. This is hosted using GitHub, deployed directly from the master branch. 
+To deploy the website from GitHub, I went into the settings section --> GitHub Pages and selected the master branch to publish the site. 
 The deployed site will update automatically upon new commits to the master branch.
 
 To run this locally, open the command prompt or terminal. Then paste this into it: 'git clone https://github.com/vishkid84/Portfolio-milestone-project.git'
